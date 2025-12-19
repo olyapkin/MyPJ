@@ -1,0 +1,52 @@
+html{
+    cursor:url(../media/cursik.png) 0 0, default;
+}
+body{
+    background-color: black;
+    color:white;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+header{
+    display: flex;
+    background-color: rgb(72 72 72);
+}
+section{
+    display: flex;
+
+}
+
+section p{
+    background-color: rgb(34, 34, 34);
+    font-size: 22px;
+    padding: 2px 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#nocat{
+    
+    cursor:url(../media/cursad.png) 0 0, default;
+
+    text-decoration: none;
+    font-size: 40px;
+
+    display:inline-block ;
+    
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    color: white;
+    background-image:url(../media/monster.png) ;
+
+}
+
+
+#nocat:active{
+    background-image:url(../media/monster-closed.png) ;
+    cursor:url(../media/nocur.png) 0 0, default;
+}
+
+article{
+    display: block;
+}
